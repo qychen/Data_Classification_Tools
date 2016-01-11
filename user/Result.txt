@@ -1,0 +1,43 @@
+分类挖掘开始！
+
+第1次分类： 
+  分类方法： Linear discriminant analysis
+  训练集： Pima Diabetes-TrSet.txt
+  测试集： Pima Diabetes-TsSet.txt
+  参与分类属性： Attr1 Attr2 Attr3 Attr4 Attr5 Attr6 Attr7 Attr8 
+  分类结果： 
+    Class 0 : s1 s2 s3 s4 s5 s6 s7 s8 s9 s10 s11 s12 s13 s14 s15 s16 s17 s18 s19 s20 s21 s22 s23 s24 s25 s26 s27 s28 s29 s30 s31 s32 s33 s34 s35 s36 s37 s38 s39 s40 s41 s42 s43 s44 s45 s46 s47 s48 s49 s50 s51 s52 s53 s54 s55 s56 s57 s58 s59 s60 s61 s62 s63 s64 s65 s66 s67 s68 s69 s70 s71 s72 s73 s74 s75 s76 s77 s78 s79 s80 s81 s82 s83 s84 s85 s86 s87 s88 s89 s90 s91 s92 s93 s94 s95 s96 s97 s98 s99 s100 s101 s102 s103 s104 s105 s106 s107 s108 s109 s110 s111 s112 s113 s114 s115 s116 s117 s118 s119 s120 s121 s122 s123 s124 s125 s126 s127 s128 
+
+-------------------------------------------------------------------
+
+第2次分类： 
+  分类方法： Quadratic discriminant analysis
+  训练集： Pima Diabetes-TrSet.txt
+  测试集： Pima Diabetes-TsSet.txt
+  参与分类属性： Attr1 Attr2 Attr3 Attr4 Attr5 Attr6 Attr7 Attr8 
+  分类结果： 
+    Class 0 : s1 s2 s3 s4 s5 s6 s7 s8 s9 s10 s11 s12 s13 s14 s15 s16 s17 s18 s19 s20 s21 s22 s23 s24 s25 s26 s27 s28 s29 s30 s31 s32 s33 s34 s35 s36 s37 s38 s39 s40 s41 s42 s43 s44 s45 s46 s47 s48 s49 s50 s51 s52 s53 s54 s55 s56 s57 s58 s59 s60 s61 s62 s63 s64 s65 s66 s67 s68 s69 s70 s71 s72 s73 s74 s75 s76 s77 s78 s79 s80 s81 s82 s83 s84 s85 s86 s87 s88 s89 s90 s91 s92 s93 s94 s95 s96 s97 s98 s99 s100 s101 s102 s103 s104 s105 s106 s107 s108 s109 s110 s111 s112 s113 s114 s115 s116 s117 s118 s119 s120 s121 s122 s123 s124 s125 s126 s127 s128 
+
+-------------------------------------------------------------------
+
+第3次分类： 
+  分类方法： Classification tree(CART)
+  训练集： Pima Diabetes-TrSet.txt
+  测试集： Pima Diabetes-TsSet.txt
+  参与分类属性： Attr1 Attr2 Attr3 Attr4 Attr5 Attr6 Attr7 Attr8 
+  分类结果： 
+    Class 0 : s1 s2 s3 s6 s9 s11 s12 s13 s14 s15 s17 s18 s19 s20 s21 s23 s24 s26 s27 s28 s31 s32 s36 s40 s41 s42 s43 s44 s45 s46 s49 s51 s53 s54 s56 s57 s59 s62 s63 s64 s66 s67 s68 s69 s70 s71 s73 s74 s75 s76 s77 s78 s79 s80 s81 s83 s84 s86 s87 s88 s89 s90 s91 s93 s95 s96 s97 s98 s99 s100 s101 s102 s103 s106 s107 s111 s112 s113 s116 s117 s118 s120 s121 s123 s124 s127 s128 
+    Class 1 : s4 s5 s7 s8 s10 s16 s22 s25 s29 s30 s33 s34 s35 s37 s38 s39 s47 s48 s50 s52 s55 s58 s60 s61 s65 s72 s82 s85 s92 s94 s104 s105 s108 s109 s110 s114 s115 s119 s122 s125 s126 
+
+-------------------------------------------------------------------
+
+第4次分类： 
+  分类方法： Nearest neighbor classifier
+  训练集： Pima Diabetes-TrSet.txt
+  测试集： Pima Diabetes-TsSet.txt
+  参与分类属性： Attr1 Attr2 Attr3 Attr4 Attr5 Attr6 Attr7 Attr8 
+  分类结果： 
+    Class 0 : s2 s3 s4 s6 s7 s8 s9 s10 s11 s12 s13 s14 s15 s16 s17 s18 s19 s20 s21 s22 s23 s25 s26 s27 s29 s30 s31 s32 s33 s34 s35 s36 s37 s41 s42 s43 s44 s45 s46 s49 s51 s52 s53 s54 s55 s56 s57 s59 s60 s61 s62 s63 s64 s66 s67 s68 s69 s70 s71 s73 s74 s75 s76 s77 s78 s79 s80 s81 s82 s83 s84 s85 s86 s87 s88 s89 s90 s91 s92 s93 s95 s96 s97 s98 s99 s100 s102 s103 s105 s106 s107 s108 s109 s110 s111 s112 s113 s115 s116 s117 s118 s119 s120 s121 s122 s123 s124 s125 s127 s128 
+    Class 1 : s1 s5 s24 s28 s38 s39 s40 s47 s48 s50 s58 s65 s72 s94 s101 s104 s114 s126 
+
+-------------------------------------------------------------------
